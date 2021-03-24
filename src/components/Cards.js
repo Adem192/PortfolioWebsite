@@ -11,8 +11,8 @@ function Cards(){
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem src={li} text="LinkedIn" href="https://www.linkedin.com/in/adem-kanca-2a0a74140/"/>
-            <CardItem src={git} text="GitHub" href=""/>
+            <CardItem src={li} text="LinkedIn" href="//www.linkedin.com/in/adem-kanca-2a0a74140"/>
+            <CardItem src={git} text="GitHub" href="//github.com/Adem192"/>
           </ul>
         </div>
       </div>

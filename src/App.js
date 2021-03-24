@@ -5,6 +5,7 @@ import Main from './components/Main.js';
 import Header from './components/Header.js';
 import HeroSection from './components/HeroSection.js';
 import Cards from './components/Cards.js';
+import AboutMe from './components/AboutMe.js';
 
 document.addEventListener('DOMContentLoaded', function() {
   // When the event DOMContentLoaded occurs, it is safe to access the DOM
@@ -48,6 +49,7 @@ function App() {
       <div>
         <Header />
         <HeroSection />
+        <AboutMe />
         <Cards />
         <Main />
       </div>
