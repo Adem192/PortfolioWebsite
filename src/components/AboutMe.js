@@ -1,15 +1,16 @@
 import React from 'react';
 import '../App.css';
 import '../css/AboutMe.css';
-import headshot from '../images/logo192.png'
 
 function AboutMe(){
   return(
-    <div className='aboutme'>
+    <div className='AM'>
       <div className='AM__container'>
-        <img src={ headshot } text="Adem"/>
-        <h1>ABOUT ME</h1>
+        <div className='AM__wrapper'>
+          <h1></h1>
+          <img src="/logo192.png" text=""/>
         </div>
+      </div>
     </div>
   )
 }
