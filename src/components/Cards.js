@@ -16,7 +16,7 @@ function Cards(){
             <CardItem src={git} href="//github.com/Adem192"/>
         </ul>
           <ul className="cards__items">
-            <CardItem src={ol} href=""/>
+            <CardItem src={ol} href="mailto:adem_kanca@live.co.uk"/>
           </ul>
         </div>
       </div>
