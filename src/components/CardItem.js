@@ -6,9 +6,7 @@ function CardItem(props){
   return(
     <li className='cards__item'>
       <a className="cards__item__link" target="_blank" href={props.href}>
-
         <img src={props.src} alt=""/>
-
       </a>
     </li>
   )

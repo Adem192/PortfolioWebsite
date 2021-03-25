@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #1b1e29AA;
 }
 
 h1 {
@@ -16,6 +16,18 @@ h1 {
   max-width: 1320px;
   width: 100%;
   margin: 0 auto;
+}
+
+.cards_container_container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding-bottom: 100px;
+  align-items:left;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
 .cards__wrapper {
