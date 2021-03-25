@@ -1,0 +1,37 @@
+p {
+  font-size: 18px;
+  font-family: "RobotoSlab"
+}
+
+.ProfileStyle {
+  border-radius: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.AM {
+  padding: 4rem;
+  background: #1b1e29AA;
+}
+
+.AM__container{
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:left;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  object-fit: contain;
+  position: relative;
+}
+
+.AM__wrapper {
+  position:relative;
+  top: 0;
+  left: 0;
+  margin: 0px 30px 50px;
+  align-items: left;
+}
