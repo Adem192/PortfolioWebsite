@@ -10,8 +10,9 @@ p {
 }
 
 .AM {
-  padding: 4rem;
+  padding-top: 4rem;
   background: #1b1e29AA;
+  height: 100vh;
 }
 
 .AM__container{
