@@ -1,6 +1,6 @@
 p {
   font-size: 18px;
-  font-family: "RobotoSlab"
+  font-family: "RobotoSlab";
 }
 
 .ProfileStyle {
@@ -10,7 +10,7 @@ p {
 }
 
 .AM {
-  padding: 4rem;
+  padding-top: 4rem;
   background: #1b1e29AA;
 }
 
@@ -21,9 +21,6 @@ p {
   flex-direction: column;
   justify-content:flex-start;
   align-items:left;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   object-fit: contain;
   position: relative;
 }
@@ -34,4 +31,28 @@ p {
   left: 0;
   margin: 0px 30px 50px;
   align-items: left;
+}
+
+.AM__title {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+    text-align: left;
+}
+
+.AM__title img {
+  width: 200px;
+  height: 90px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 20%;
+}
+
+.AM__title img:first-child {
+  text-align: left;
+}
+
+.AM__title img:last-child {
+  text-align: right;
 }
