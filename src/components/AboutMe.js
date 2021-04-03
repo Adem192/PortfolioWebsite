@@ -11,15 +11,15 @@ function AboutMe(){
       <div className='AM__container'>
         <div className='AM__wrapper'>
               <p className="AM__title">
-                <h1>About Me</h1>
+                <h1 className="AM__pad">About Me</h1>
+                <a href="mailto:adem_kanca@live.co.uk">
+                  <img src={out}/>
+                </a>
                 <a href="//www.github.com/Adem192">
                   <img src={git}/>
                 </a>
                 <a href="//www.linkedin.com/in/adem-kanca-2a0a74140">
                   <img src={link}/>
-                </a>
-                <a href="mailto:adem_kanca@live.co.uk">
-                  <img src={out}/>
                 </a>
               </p>
               <img className="ProfileStyle" src="/logo192.png" text=""/>

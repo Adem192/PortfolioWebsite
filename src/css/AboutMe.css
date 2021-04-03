@@ -3,6 +3,11 @@ p {
   font-family: "RobotoSlab";
 }
 
+.AM__pad {
+  margin-bottom: -10px;
+}
+
+
 .ProfileStyle {
   border-radius: 20%;
   float: left;
@@ -12,11 +17,11 @@ p {
 .AM {
   padding-top: 4rem;
   background: #1b1e29AA;
+  width: 100vw;
 }
 
 .AM__container{
   background: #fff;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
@@ -34,19 +39,22 @@ p {
 }
 
 .AM__title {
-  display: flex;
+  width: 100%;
+  height: 70%;
+  display:flex;
   flex-flow: row;
   justify-content: space-around;
-    text-align: left;
+  text-align: left;
 }
 
 .AM__title img {
-  width: 200px;
-  height: 90px;
+  height: 80%;
+  width: 16vw;
+  max-width: 10em;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 20%;
+  border-radius: 20%;
 }
 
 .AM__title img:first-child {
