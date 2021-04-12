@@ -4,8 +4,7 @@ import '../css/AboutMe.css';
 import git from '../images/github.png';
 import link from '../images/linked.jpg';
 import out from '../images/outlook.png';
-import quickSort from '../components/QuickSort.js';
-import Chart1 from '../components/Chart1';
+import QuickSort from '../components/sortingGraphs/QuickSort';
 
 function AboutMe(){
   return(
@@ -37,7 +36,9 @@ function AboutMe(){
         </div>
         <div className='AM__wrapper'>
           <h1 className="AM__pad">Sorting Algorithms</h1>
-          <Chart1 />
+          <br />
+          <h1>Quick Sort</h1>
+          <QuickSort />
         </div>
       </div>
     </div>
