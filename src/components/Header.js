@@ -11,10 +11,10 @@ const Header = props => {
       <a className="navbar-text-home" href="/">Adem Kanca</a>
     </div>
     <div className="navbar-item">
-      <a className="navbar-text-item" href="/dashboard">Projects</a>
+      <a className="navbar-text-item" href="/projects">Projects</a>
     </div>
     <div className="navbar-item">
-      <a className="navbar-text-item" href="/dashboard">Algorithms</a>
+      <a className="navbar-text-item" href="/algorithms">Algorithms</a>
     </div>
   </div>
 </div>

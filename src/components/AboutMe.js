@@ -4,6 +4,8 @@ import '../css/AboutMe.css';
 import git from '../images/github.png';
 import link from '../images/linked.jpg';
 import out from '../images/outlook.png';
+import quickSort from '../components/QuickSort.js';
+import Chart1 from '../components/Chart1';
 
 function AboutMe(){
   return(
@@ -25,13 +27,17 @@ function AboutMe(){
               <img className="ProfileStyle" src="/logo192.png" text=""/>
               <p>
                 Hi! I'm Adem, <br/><br/>
-                I recently graduated from Loughborough University; where i studied Computer Science.
+              I recently graduated from Loughborough University; where I studied Computer Science.
                 I'm looking to get into a software-related role (developer, analyst, technician etc.).
                 This website is a means of displaying my software portfolio of personal and group projects. <br/><br/>
                 Below are links to my LinkedIn and GitHub profile as well as a way of contacting me via email.
                 Recruiters can email me at any time with any possible, software-related roles.<br/><br/>
                 My CV is available upon request.
               </p>
+        </div>
+        <div className='AM__wrapper'>
+          <h1 className="AM__pad">Sorting Algorithms</h1>
+          <Chart1 />
         </div>
       </div>
     </div>
