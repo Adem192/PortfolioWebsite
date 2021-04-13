@@ -35,6 +35,7 @@ class MergeSort extends Component {
           sorted = buffer,
           buffer = [...sorted];
     }
+    this.drawChart(sorted, -1, -1, -1);
     console.log(sorted);
     return sorted;
   }

@@ -6,6 +6,7 @@ import link from '../images/linked.jpg';
 import out from '../images/outlook.png';
 import QuickSort from '../components/sortingGraphs/QuickSort';
 import MergeSort from '../components/sortingGraphs/MergeSort';
+import InsertionSort from '../components/sortingGraphs/InsertionSort';
 
 function AboutMe(){
   return(
@@ -42,6 +43,8 @@ function AboutMe(){
           <QuickSort />
           <h1>Merge Sort</h1>
           <MergeSort />
+          <h1>Insertion Sort</h1>
+          <InsertionSort />
         </div>
       </div>
     </div>
