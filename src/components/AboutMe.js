@@ -5,6 +5,7 @@ import git from '../images/github.png';
 import link from '../images/linked.jpg';
 import out from '../images/outlook.png';
 import QuickSort from '../components/sortingGraphs/QuickSort';
+import MergeSort from '../components/sortingGraphs/MergeSort';
 
 function AboutMe(){
   return(
@@ -39,6 +40,8 @@ function AboutMe(){
           <br />
           <h1>Quick Sort</h1>
           <QuickSort />
+          <h1>Merge Sort</h1>
+          <MergeSort />
         </div>
       </div>
     </div>
