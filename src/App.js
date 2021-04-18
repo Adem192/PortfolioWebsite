@@ -4,7 +4,6 @@ import './App.css';
 import Main from './components/Main.js';
 import Header from './components/Header.js';
 import HeroSection from './components/HeroSection.js';
-import Cards from './components/Cards.js';
 import AboutMe from './components/AboutMe.js';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -50,7 +49,6 @@ function App() {
         <Header />
         <HeroSection />
         <AboutMe />
-        <Cards />
         <Main />
       </div>
     </BrowserRouter>
