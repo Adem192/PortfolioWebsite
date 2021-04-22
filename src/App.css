@@ -2,6 +2,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  margin-top: 0;
+}
+
 .App {
   text-align: center;
 }

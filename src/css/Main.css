@@ -26,85 +26,6 @@ input {
   outline: none;
 }
 
-.login-button {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  min-width: 250px;
-  border-radius: 2px;
-  padding: 1.4rem 2rem 1.6rem;
-  background: var(--color-input-background);
-}
-
-.login-button::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 2px;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  background-position: 0% 0%;
-  background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
-  background-size: 500% auto;
-  animation: gradient 3s linear infinite;
-}
-
-.login-button input {
-  flex-grow: 1;
-  color: var(--color-text-bright);
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  vertical-align: middle;
-}
-
-.login-button input:hover {
-  cursor: pointer;
-  color: var(--color-text-placeholder);
-}
-
-.login-input {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  min-width: 250px;
-  border-radius: 2px;
-  padding: 1.4rem 2rem 1.6rem;
-  background: var(--color-input-background);
-}
-
-.login-input input {
-  flex-grow: 1;
-  color: var(--color-text-bright);
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  vertical-align: middle;
-}
-
-.login-input input::-webkit-input-placeholder {
-  color: var(--color-text-placeholder);
-}
-
-.login-input button {
-  color: var(--color-text-bright);
-  font-size: 2.4rem;
-  line-height: 2.4rem;
-  vertical-align: middle;
-  transition: color 0.25s;
-}
-
-.login-input button:hover {
-  color: var(--color-text-placeholder);
-}
-
-
 .container {
   max-width: 1140px;
   min-width: 1140px;
@@ -151,7 +72,7 @@ input {
   color: var(--color-text-home);
   display: table-cell;
   vertical-align: middle;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'RobotoSlab', serif;
 }
 
 .navbar-text-item {
@@ -160,7 +81,7 @@ input {
   color: var(--color-text-header);
   display: table-cell;
   vertical-align: middle;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'RobotoSlab', serif;
 }
 
 .navbar-item:hover {

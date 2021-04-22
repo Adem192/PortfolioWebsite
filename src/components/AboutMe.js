@@ -36,16 +36,6 @@ function AboutMe(){
                 My CV is available upon request.
               </p>
         </div>
-        <div className='AM__wrapper'>
-          <h1 className="AM__pad">Sorting Algorithms</h1>
-          <br />
-          <h1>Quick Sort</h1>
-          <QuickSort />
-          <h1>Merge Sort</h1>
-          <MergeSort />
-          <h1>Insertion Sort</h1>
-          <InsertionSort />
-        </div>
       </div>
     </div>
   )
