@@ -1,0 +1,47 @@
+/* =========== HEADER SOCIALS ===========*/
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: fixed;
+    left: 2vw;
+    bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 10rem;
+    background: var(--color-primary);
+}
+
+.nav__arrows {
+    margin: 5rem;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__arrows a {
+    z-index: 100;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+    color: #fff;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav__arrows .up {
+    position: fixed;
+    top: .5rem;
+}
+
+.nav__arrows .down {
+    position: fixed;
+    bottom: .5rem;
+}

@@ -1,0 +1,65 @@
+header {
+    height: 92vh;
+    padding-top: 1rem;
+    margin: 0 2rem;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.text-intro {
+    font-size: 1.2em;
+}
+
+/* =========== CTA ===========*/
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin:2rem 0rem;
+}
+
+.btn {
+    font-size: min(max(2px, 4vw), 14px);
+}
+
+/* =========== IMGS ===========*/
+
+.logo {
+    position: absolute;
+    left:0;
+    width:4.25rem;
+    height:4rem;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    border: 5px solid var(--color-primary-variant);
+    padding: 0 .3rem 0 0;
+    box-shadow: inset;
+}
+
+.logo-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:500;
+    font-size: 2rem;
+    letter-spacing: -.47rem;
+    color: var(--color-bg);
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.me img {
+    max-width:300px;
+    border-radius: 40px;
+    border: 2px solid var(--color-primary);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
